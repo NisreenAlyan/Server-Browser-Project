@@ -1,0 +1,54 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html;charset=UTF-8">
+<meta name="Website" content="http://www.webventures.com.au/sb/">
+<TITLE>Simple Browser</TITLE>
+<script type="text/javascript" src="scripts.js">
+//Right-Click Menu Script:
+// Copyright 2002 Eddie Traversa, etraversa@dhtmlnirvana.com, http://dhtmlnirvana.com
+// Free to use as long as this copyright notice stays intact.
+// Courtesy of SimplytheBest.net - http://simplythebest.net/scripts/
+/***********************************************
+* Animated Collapsible DIV v2.0- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit Dynamic Drive at http://www.dynamicdrive.com/ for this script and 100s more
+***********************************************/
+</script>
+<script type="text/javascript" src="http://www.webventures.com.au/browser/update/version.js"></script>
+<LINK REL="StyleSheet" HREF="styles.css" TYPE="text/css" MEDIA="all">
+</head>
+<body onLoad="window.status='Simple Browser'; return true">
+<div id="display">
+<table>			
+<tr>	
+<!-- BACK -->
+<td><a href="javascript:history.back();" title="Back"><img src="images/back.gif" ALT="Back" class="command"></a></td>
+<!-- FORWARD -->
+<td><A HREF="javascript:history.go(1);" title="Forward"><img src="images/forward.gif" ALT="Forward" class="command"></a></td>
+<!-- HOME -->
+<td><a href="javascript:homein();" title="Home"><img src="images/home.gif" ALT="Home" class="command"></a></td>
+<!-- REFRESH -->
+<td><a href="javascript:window.location.reload();" title="Refresh"><img src="images/refresh.gif" ALT="Refresh" class="command"></a></td>
+<!-- VIEW SOURCE -->
+<td><a href="javascript:source();" title="View Source"><img src="images/source.gif" ALT="View Source" class="command"></a></td>
+<!-- ABOUT -->
+<td><a href="javascript:about();" title="About"><img src="images/about.gif" ALT="About" class="command"></a></td>
+<td><a href="javascript:update();" title="Update"><img src="images/update.gif" ALT="Update" class="command"></a></td>
+<!-- URL BOX -->
+<td>
+<form onSubmit="return !window.open(this.url.value,'main','');" name="URL_box" action="#"> 
+<input type="text" name="url" value="http://" id="input_url">
+</form>
+</td>
+<td><img src="images/find.gif" onclick="!window.open(URL_box.url.value,'main','');" id="imagen" ALT="Go!"></td>
+</tr>
+</table></div>
+<!-- menu start -->
+<div id="menu" class="menu">
+<a href="javascript:readme();" class="menuitem">Readme</a>
+<a href="javascript:print_frame();" class="menuitem">Print</a>
+
+</div>
+</body>
+</html>

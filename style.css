@@ -1,0 +1,18 @@
+body, html{padding: 0px;margin: 0px;border-width: 0px;font-family: Calibri, Trebuchet, Helvetica, Arial, sans-serif;font-size: 101%;background-color:#ffffff;color: #000000;overflow: auto;}
+#display{padding-left: 5px;padding-right: 5px;height:50px;border-bottom:solid 1px #404040;background-color:#EFECDC;}
+#display table{width: 100%;} 
+#display td{text-align: left;}
+#display input{width: 100%;position:relative;top:10px;min-width:400px;border-style: solid;border-width:1px;border-color: #808080;}
+#display input:hover{background:#FFFFCC;}
+#display input:focus{background:#FFFF99;}
+#display .command{border-style: none;}
+#imagen{padding:3px;border:solid #333333 1px;-moz-border-radius:5px;float:right;}
+#warning, #warning_f{background-color: #FFFFE1;border-style: none none solid none;border-color: grey;border-width: 1px;font-size: 12px;width: 100%;color: black;font-family: Arial, Trebuchet, Helvetica, sans-serif;position: fixed;text-align: center;}
+#warning:hover, #warning_f:hover{background-color: #316AC5;color: white;}
+.menu  { position: absolute;width:  100px; top: 0px; left: 0px;background-color: #ECE9D8;visibility: hidden;border: 1px solid;border-color: #eeeeee #666666 #666666 #eeeeee;padding: 2px;z-index: 5;}
+.menuitem {padding: 2px 4px 2px 4px; color: #000000;text-decoration: none;font-family: ms sans serif; font-size: 11px;font-weight: normal; display: block;}
+.seperator {border-top: 1px solid #999999;border-bottom: 1px solid #eeeeee;margin: 2px;}
+a.menuitem:hover {color: #fff;background-color: #316AC5;}
+#readme_h1{text-align: center;}
+#readme_h2{text-decoration: none;}
+#readme_body{font-family: Calibri, Tahoma, Helvetica, Arial, sans-serif;font-size: 102%;color: black;background-color: white;}
